@@ -1,19 +1,17 @@
-require 'active_support/core_ext'
 require_relative '../lib/parking_lot'
 
 class ParkingBoy
   attr_reader :parking_lots
 
-  def initialize
+  def initialize(chooser)
+    @chooser = chooser
     @parking_lots = {}
   end
 
   def park(car)
-    @parking_lots.each do |key, parking_lot|
-      parking_card = parking_lot.park(car)
-      return parking_card if parking_card.present?
-    end
-    nil
+    parking_lot = choose_parking_lot
+    p parking_lot
+    parking_lot.park(car) if parking_lot != nil
   end
 
   def pickup(parking_card)
@@ -31,5 +29,10 @@ class ParkingBoy
 
   def remove_parking_lot(parking_lot)
     @parking_lots.delete(parking_lot.id)
+  end
+
+  private
+  def choose_parking_lot
+    @chooser.choose(@parking_lots)
   end
 end

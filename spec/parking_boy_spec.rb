@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe 'ParkingBoy' do
 
-  let(:parking_boy) { ParkingBoy.new }
+  let(:parking_boy) { ParkingBoy.new(NormalChooser.new) }
   let(:parking_lot) { ParkingLot.new('parking_lot_1', 1) }
   let(:car) { Car.new(1) }
   let(:another_car) { Car.new(2) }

@@ -13,15 +13,15 @@
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/models/component.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385629479392" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/reflection.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385516640366" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/models/supervised_assessment_workflow.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385516640366" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/attachment.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385687730294" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/attachment.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/models/showcase.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385629479392" ignored="false" />
-    <file path="/parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386049578047" ignored="false" />
-    <file path="/temp.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386050052234" ignored="false" />
-    <file path="/parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385820620647" ignored="false" />
+    <file path="/parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387980721884" ignored="false" />
+    <file path="/temp.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386940171097" ignored="false" />
+    <file path="/parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387980110484" ignored="false" />
     <file path="/parking_lot.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385822583968" ignored="false" />
     <file path="/parkinglot_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385820567067" ignored="false" />
-    <file path="/a.dummy" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592336708" ignored="false" />
-    <file path="/spec_helper.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385822074797" ignored="false" />
+    <file path="/a.dummy" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387980728874" ignored="false" />
+    <file path="/spec_helper.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386941446884" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/models/component_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385629479392" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/javascripts/showcases/showcase_composer_controller_spec.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385629479392" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/data/built_in_templates_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385629479392" ignored="false" />
@@ -34,25 +34,40 @@
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/views/web_ui/templates/_add_template.html.erb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385687730294" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/assets/javascripts/lib/composer/directives.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385687721135" ignored="false" />
     <file path="/directives.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385687699375" ignored="false" />
-    <file path="/smart_parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386049386474" ignored="false" />
-    <file path="/smart_parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385821331480" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/lib/tasks/data/hogwarts/templates.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385720493542" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/lib/tasks/data.rake" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385720493542" ignored="false" />
+    <file path="/smart_parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386939836301" ignored="false" />
+    <file path="/smart_parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386940891340" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/lib/tasks/data/hogwarts/templates.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775560" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/lib/tasks/data.rake" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/views/web_ui/composers/_section.html.erb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385720493542" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/rubric.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385726218355" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/rubric.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387965930376" ignored="false" />
     <file path="/rubric.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385725217368" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/vendor/assets/javascripts/honegger.js" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386574849919" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/vendor/assets/javascripts/honegger.js" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387965930376" ignored="false" />
     <file path="/honegger.js" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386574777261" ignored="false" />
-    <file path="/smarter_parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1385822697061" ignored="false" />
-    <file path="/smarter_parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386049409914" ignored="false" />
+    <file path="/smarter_parking_boy_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386941103739" ignored="false" />
+    <file path="/smarter_parking_boy.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386939800860" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/4eb7abb7ed344e88fbbffbeeadae65ec" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386575014818" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/837b55897013ede4f5e5a314f5ab35fa" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386575014818" ignored="false" />
     <file path="/api_spec.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592472432" ignored="false" />
-    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/javascripts/common/api_spec.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592558589" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/javascripts/common/api_spec.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775560" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/08ff5355d924b7528fb6a4dc40c7f1b2" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592547046" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/129beb8527e4fd7039239dab08bcf973" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592547046" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/20ff56211884022d66576a06d4e348b4" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592547046" ignored="false" />
     <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/tmp/cache/assets/development/sprockets/dbabca791c2a9c608536679fffd2712d" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386592547046" ignored="false" />
+    <file path="/normal_chooser_spec.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1386941406736" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/assets/javascripts/lib/groups/controllers.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944772681" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/controllers/web_ui_controller.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775560" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/views/web_ui/groups/group/_portfolios.html.erb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775560" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/active_documentation/features/admin_authorization.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775560" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/assets/javascripts/lib/portfolios/directives.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/db/data/components/portfolio_reference.yml" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/views/api/components/editors.js.erb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/spec/func_helper.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387944775561" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/controllers/api/timeline_controller.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387960019296" ignored="false" />
+    <file path="/timeline_controller.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387958478200" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/models/portfolio.rb" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387951266987" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/app/assets/javascripts/lib/timeline/controllers.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387965930376" ignored="false" />
+    <file path="/controllers.js.coffee" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387963828801" ignored="false" />
+    <file path="$USER_HOME$/workspace/LiveText/eportfolio/eportfolio/coverage/backend/index.html" changelist="20371816-7689-4b5c-9446-13d894a74296" time="1387965930376" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,19 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="smarter_parking_boy_spec.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb">
+      <file leaf-file-name="smarter_chooser_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/smarter_chooser_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="29" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0">
+            <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smarter_parking_boy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smarter_parking_boy.rb">
+      <file leaf-file-name="parking_boy_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/parking_boy_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+            <state line="27" column="24" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,25 +126,52 @@
       <file leaf-file-name="parking_lot.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/parking_lot.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="6" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+            <state line="9" column="11" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parking_boy.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="smart_chooser_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/smart_chooser_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parkinglot_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/parkinglot_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="7" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parking_manager_spec.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/parking_manager_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parking_boy.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/parking_boy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="20" selection-start="537" selection-end="537" vertical-scroll-proportion="0.77380955">
+            <state line="35" column="16" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="smart_parking_boy.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/smart_parking_boy.rb">
+      <file leaf-file-name="normal_chooser.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/normal_chooser.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="9" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
+            <state line="4" column="1" selection-start="137" selection-end="137" vertical-scroll-proportion="0.22166246">
               <folding />
             </state>
           </provider>
@@ -145,21 +187,21 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/car.rb" />
-        <option value="$PROJECT_DIR$/spec/parkinglog_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/parkinglot.rb" />
-        <option value="$PROJECT_DIR$/spec/parking_boy.rb" />
-        <option value="$PROJECT_DIR$/lib/parking_card.rb" />
-        <option value="$PROJECT_DIR$/spec/length_spec.rb" />
         <option value="$PROJECT_DIR$/spec/smart_parking_boy.rb" />
-        <option value="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
         <option value="$PROJECT_DIR$/spec/parkinglot_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/lib/parking_lot.rb" />
-        <option value="$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/smart_parking_boy_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/test.js" />
         <option value="$PROJECT_DIR$/lib/smart_parking_boy.rb" />
+        <option value="$PROJECT_DIR$/spec/smart_parking_boy_spec.rb" />
         <option value="$PROJECT_DIR$/lib/smarter_parking_boy.rb" />
+        <option value="$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/smart_chooser_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/smarter_chooser_spec.rb" />
+        <option value="$PROJECT_DIR$/lib/normal_chooser.rb" />
+        <option value="$PROJECT_DIR$/spec/normal_chooser_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/parking_manager_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
         <option value="$PROJECT_DIR$/lib/parking_boy.rb" />
       </list>
     </option>
@@ -167,7 +209,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="812" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -208,6 +250,34 @@
               <option name="myItemId" value="rubyOO" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyOO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="activesupport (v4.0.0, RVM: ruby-2.0.0-p247 [eportfolio]) [gem]" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyOO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rubyOO" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -244,19 +314,19 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="recentsLimit" value="5" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.All specs in: spec">
-    <configuration default="false" name="SmartParkingBoy" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.ParkingBoy park car">
+    <configuration default="false" name="ParkingBoy" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rubyOO" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -276,10 +346,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/smart_parking_boy_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="SmartParkingBoy" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParkingBoy" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -290,7 +360,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="SmarterParkingBoy park car should park car failed if no free lot" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ParkingBoy manage parking lot should add a parking lot" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rubyOO" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -310,10 +380,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="SmarterParkingBoy park car should park car failed if no free lot" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParkingBoy manage parking lot should add a parking lot" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -324,7 +394,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="smarter_parking_boy_spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ParkingBoy manage parking lot should remove a parking lot" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rubyOO" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -344,10 +414,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParkingBoy manage parking lot should remove a parking lot" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -358,7 +428,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="SmarterParkingBoy" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ParkingBoy park car should park success if there are enough free lot, return a stub" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rubyOO" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -378,10 +448,10 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="SmarterParkingBoy" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParkingBoy park car should park success if there are enough free lot, return a stub" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -392,7 +462,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="All specs in: spec" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="ParkingBoy park car" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="rubyOO" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -411,12 +481,12 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="$PROJECT_DIR$/spec" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$PROJECT_DIR$/spec/parking_boy_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="ALL_IN_FOLDER" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="ParkingBoy park car" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
@@ -503,23 +573,40 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.SmartParkingBoy" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.SmarterParkingBoy park car should park car failed if no free lot" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.smarter_parking_boy_spec" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.SmarterParkingBoy" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.ParkingBoy" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.ParkingBoy manage parking lot should add a parking lot" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.ParkingBoy manage parking lot should remove a parking lot" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.ParkingBoy park car should park success if there are enough free lot, return a stub" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.ParkingBoy park car" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in: spec" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.SmarterParkingBoy" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.SmartParkingBoy" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.smarter_parking_boy_spec" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.SmarterParkingBoy park car should park car failed if no free lot" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.ParkingBoy park car" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.ParkingBoy park car should park success if there are enough free lot, return a stub" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.ParkingBoy manage parking lot should remove a parking lot" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.ParkingBoy manage parking lot should add a parking lot" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.ParkingBoy" />
       </list>
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="20371816-7689-4b5c-9446-13d894a74296" name="Default" comment="" />
@@ -529,23 +616,23 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="812" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="810" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32819074" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18938307" sideWeight="0.62657344" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18651363" sideWeight="0.628331" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15955175" sideWeight="0.6900685" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3734266" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.371669" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3282123" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -613,71 +700,42 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/car.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/length.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="29" selection-start="370" selection-end="370" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/car.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="5" selection-start="70" selection-end="70" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@eportfolio/gems/activesupport-4.0.0/lib/active_support/core_ext/object/blank.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="6" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/length_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="31" selection-start="419" selection-end="419" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/parkinglot_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/smart_chooser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/normal_chooser_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/parking_boy_spec.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.0.0-p247@eportfolio/gems/activesupport-4.0.0/lib/active_support/core_ext.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="9" selection-start="1383" selection-end="2252" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="32" selection-start="168" selection-end="168" vertical-scroll-proportion="0.0">
+        <state line="5" column="31" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/smart_parking_boy_spec.rb">
+    <entry file="file://$PROJECT_DIR$/lib/smarter_chooser.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="39" selection-start="2403" selection-end="2403" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/smarter_parking_boy_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="29" selection-start="2105" selection-end="2105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/parking_lot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="6" selection-start="516" selection-end="516" vertical-scroll-proportion="0.0">
+        <state line="2" column="42" selection-start="90" selection-end="90" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -689,20 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smart_parking_boy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="113" selection-end="113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/smarter_parking_boy.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="9" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/length.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="29" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0">
@@ -710,9 +754,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spec/parking_manager_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="22" selection-end="22" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/parkinglot_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/smart_chooser_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/smarter_chooser_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="12" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/parking_lot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/parking_boy_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="24" selection-start="832" selection-end="832" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/parking_boy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="20" selection-start="537" selection-end="537" vertical-scroll-proportion="0.77380955">
+        <state line="35" column="16" selection-start="782" selection-end="782" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/normal_chooser.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="1" selection-start="137" selection-end="137" vertical-scroll-proportion="0.22166246">
           <folding />
         </state>
       </provider>
