@@ -64,4 +64,19 @@ describe 'ParkingBoy' do
       parking_boy.add_parking_lot(parking_lot)
     end
   end
+
+  describe 'have cars' do
+    it 'should return true if have car in parking lots' do
+      parking_boy.park(car)
+      expect(parking_boy.have_cars?).to eq(true)
+    end
+
+    it 'should return false if not have car in parking lots' do
+      expect(parking_boy.have_cars?).to eq(false)
+    end
+
+    before do
+      parking_boy.add_parking_lot(parking_lot)
+    end
+  end
 end

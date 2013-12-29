@@ -2,7 +2,7 @@ require_relative '../lib/car'
 require_relative '../lib/parking_card'
 
 class ParkingLot
-  attr_reader :id
+  attr_reader :id, :car_slots
 
   def initialize(id, capacity)
     @id = id
@@ -36,5 +36,12 @@ class ParkingLot
 
   def use_rate
     @capacity == 0 ? 1 : Float(@car_slots.length) / @capacity
+  end
+
+  def report(index)
+    @car_slots.values.each do |car|
+      print '--' * index
+      puts car.id
+    end
   end
 end
