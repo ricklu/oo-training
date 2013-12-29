@@ -1,6 +1,7 @@
 require 'rspec'
 require_relative '../lib/parking_lot'
 require_relative '../lib/parking_boy'
+require_relative '../lib/parking_manager'
 require_relative '../lib/normal_chooser'
 require_relative '../lib/smart_chooser'
 require_relative '../lib/smarter_chooser'
