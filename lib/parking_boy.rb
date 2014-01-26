@@ -10,12 +10,12 @@ class ParkingBoy
   end
 
   def park(car)
-    parking_lot = choose_parking_lot
+    parking_lot = choose_parking_lot_to_park
     parking_lot.park(car) if parking_lot
   end
 
   def pickup(parking_card)
-    parking_lot = @parking_lots[parking_card.parking_lot_id]
+    parking_lot = choose_parking_lot_to_pickup(parking_card)
     parking_lot.nil? ? nil : parking_lot.pickup(parking_card)
   end
 
@@ -39,14 +39,23 @@ class ParkingBoy
     Reporter.report(index, @managed_parking_boys, @parking_lots)
   end
 
-  private
-  def choose_parking_lot
+  def choose_parking_lot_to_park
     parking_lot = @chooser.choose(@parking_lots)
     return parking_lot if not parking_lot.nil?
     @managed_parking_boys.each do |boy|
-      parking_lot = boy.choose_parking_lot
+      parking_lot = boy.choose_parking_lot_to_park
       return parking_lot if not parking_lot.nil?
     end
-    return nil
+    nil
+  end
+
+  def choose_parking_lot_to_pickup(parking_card)
+    parking_lot = @parking_lots[parking_card.parking_lot_id]
+    return parking_lot if not parking_lot.nil?
+    @managed_parking_boys.each do |boy|
+      parking_lot = boy.choose_parking_lot_to_pickup(parking_card)
+      return parking_lot if not parking_lot.nil?
+    end
+    nil
   end
 end

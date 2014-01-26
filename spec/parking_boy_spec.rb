@@ -6,7 +6,7 @@ describe 'ParkingBoy' do
     let(:parking_lot) { ParkingLot.new('parking_lot_1', 1) }
     let(:car) { Car.new(1) }
     let(:another_car) { Car.new(2) }
-    let(:parking_manager) { ParkingBoy.new(ChooserFactory.chooser('normal')) }
+    let(:parking_manager) { ParkingBoy.new(ChooserFactory.chooser('smart')) }
 
     before do
       NormalChooser.any_instance.stub(:choose).and_return(parking_lot)
@@ -45,7 +45,15 @@ describe 'ParkingBoy' do
     end
 
     describe 'pickup car' do
-      it 'should pickup successfully with correct stub' do
+      it 'should pickup from parking manager successfully with correct stub' do
+        parking_manager.manage(parking_boy)
+        parking_card = parking_manager.park(car)
+        mycar = parking_manager.pickup(parking_card)
+
+        expect(mycar).to eq(car)
+      end
+
+      it 'should pickup from parking boy successfully with correct stub' do
         parking_card = parking_boy.park(car)
         mycar = parking_boy.pickup(parking_card)
 
