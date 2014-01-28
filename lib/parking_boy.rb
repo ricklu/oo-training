@@ -35,8 +35,8 @@ class ParkingBoy
     @managed_parking_boys.delete_if { |boy| boy == parking_boy }
   end
 
-  def report(index = 0)
-    Reporter.report(index, @managed_parking_boys, @parking_lots)
+  def report(index = 0, logger = $stdout)
+    Reporter.new.report(index, @managed_parking_boys, @parking_lots, logger)
   end
 
   def choose_parking_lot_to_park

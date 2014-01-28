@@ -17,10 +17,12 @@ describe 'Reporter' do
     let(:fourth_car) { Car.new('Car 4') }
     let(:fifth_car) { Car.new('Car 5') }
     let(:sixth_car) { Car.new('Car 6') }
+    let(:logger) { Logger.new }
 
     describe 'report' do
       it 'should report parked cars' do
-        Reporter.report(0, [parking_boy, another_parking_manager], parking_manager.parking_lots)
+        Reporter.new().report(0, [parking_boy, another_parking_manager], parking_manager.parking_lots, logger)
+        expect(logger.content).to eq('Parking Manager Report:--Parking Manager--Parking Boy----Parking Manager----Parking Boy----Parking Lot:------Car 3------Car 4----Parking Manager----Parking Boy----Parking Lot:------Car 1------Car 2--Parking Lot:----Car 5----Car 6')
       end
 
       before do

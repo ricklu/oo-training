@@ -10,7 +10,7 @@ describe 'ParkingBoy' do
 
     before do
       NormalChooser.any_instance.stub(:choose).and_return(parking_lot)
-      Reporter.stub(:report).and_return('parking boy report')
+      Reporter.any_instance.stub(:report).and_return('parking boy report')
     end
 
     describe 'manage parking lot' do

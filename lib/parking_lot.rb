@@ -38,10 +38,9 @@ class ParkingLot
     @capacity == 0 ? 1 : Float(@car_slots.length) / @capacity
   end
 
-  def report(index)
+  def report(index, logger)
     @car_slots.values.each do |car|
-      print '--' * index
-      puts car.id
+      logger.puts '--' * index + car.id
     end
   end
 end
